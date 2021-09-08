@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container > *{
+    margin: 10px;
+}
+.main{
+    background-color: black;
+    height: 300px;
+    width: 200px;
+}
+  

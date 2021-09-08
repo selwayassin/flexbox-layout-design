@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box; 
+  margin: 10px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.nav{
+  width: 470px; 
+  height: 100px;  
+  background-color: black;
+}
+.container{
+  display: flex;
+  flex-direction: row; 
+  margin: 0px;
+}
+.col-1 {
+  display: flex;
+  flex-direction: column;
+}
+.col-1 header{
+  background-color: black;
+  height: 100px;
+  width: 320px; 
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+.content > article {
+  background-color: black;
+  height: 400px;
+  width: 150px; 
+}
+.content > aside {
+  background-color: black;
+  height: 400px;
+  width: 150px;
+}
+.col-2 {
+  background: black;
+  height: 530px;
+  width: 120px;
+  margin-top: -110px;
+}

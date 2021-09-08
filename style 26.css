@@ -1,0 +1,54 @@
+.container > *{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+header{
+    background-color: black;
+    height: 100px;
+    width: 620px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;  
+}
+.nav .nav-left{
+    order: 1;
+    background-color: black;
+    height: 100px;
+    width: 305px; 
+ } 
+ .nav .nav-right{
+    order: 2;
+    background-color: black;
+    height: 100px;
+    width: 305px;
+    margin-left: 10px;
+ }
+ main{
+    background-color: black;
+    height: 100px;
+    width: 620px;
+ }
+ .content{
+    display: flex;
+    flex-direction: row;  
+ }
+ .content .content-left{
+    order: 1;
+    background-color: black;
+    height: 100px;
+    width: 305px; 
+ }
+ .content .content-right{
+    order: 2;
+    background-color: black;
+    height: 100px;
+    width: 305px; 
+    margin-left: 10px;
+ }
+ footer{
+    background-color: black;
+    height: 100px;
+    width: 620px;
+ }

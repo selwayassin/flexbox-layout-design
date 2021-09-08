@@ -1,0 +1,27 @@
+.container > *{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+nav{
+    background-color: black;
+    height: 100px;
+    width: 420px;
+}
+.main{
+    display: flex;
+    flex-direction: row;  
+}
+.main .side{
+    order: 1;
+    background-color: black;
+    height: 400px;
+    width: 110px; 
+ } 
+ .main .main-content{
+    order: 2;
+    background-color: black;
+    height: 400px;
+    width: 300px;
+    margin-left: 10px;
+ }

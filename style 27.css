@@ -1,0 +1,39 @@
+.container > *{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+nav{
+    background-color: black;
+    height: 100px;
+    width: 470px;
+}
+.main{
+    display: flex;
+    flex-direction: row;  
+}
+.main .main-content{
+    order: 1;
+    background-color: black;
+    height: 300px;
+    width: 250px; 
+ } 
+.main .content-1{
+    order: 2;
+    background-color: black;
+    height: 300px;
+    width: 100px; 
+    margin-left: 10px;
+ } 
+ .main .content-2{
+    order: 3;
+    background-color: black;
+    height: 300px;
+    width: 100px;
+    margin-left: 10px;
+ }
+ footer{
+    background-color: black;
+    height: 100px;
+    width: 470px;
+ }

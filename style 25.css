@@ -1,0 +1,32 @@
+.container > *{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+nav{
+    background-color: black;
+    height: 100px;
+    width: 620px;
+}
+.main{
+    display: flex;
+    flex-direction: row;  
+}
+.main .content-1{
+    order: 1;
+    background-color: black;
+    height: 200px;
+    width: 305px; 
+ } 
+ .main .content-2{
+    order: 2;
+    background-color: black;
+    height: 200px;
+    width: 305px;
+    margin-left: 10px;
+ }
+ footer{
+    background-color: black;
+    height: 100px;
+    width: 620px;
+ }

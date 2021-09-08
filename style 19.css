@@ -1,0 +1,63 @@
+.container > *{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+nav{
+    width: 320px;
+    height: 100px;
+    background-color: black;
+}
+.content{
+    display: flex;
+    flex-direction: row;  
+}
+.content .content-left{
+    order: 1;
+    background-color: black;
+    height: 100px;
+    width: 100px; 
+ } 
+ .content .content-center{
+    order: 2;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+ }
+ .content .content-right{
+    order: 3;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+ }
+ .section{
+    display: flex;
+    flex-direction: row;
+}
+.section .section-left{
+    order: 1;
+    background-color: black;
+    height: 100px;
+    width: 100px; 
+}
+.section .section-center{
+    order: 2;
+    background-color: black;
+    height: 100px;
+    width: 100px; 
+    margin-left: 10px;
+}
+.section .section-right{
+    order: 3;
+    background-color: black;
+    height: 100px;
+    width: 100px; 
+    margin-left: 10px;
+}
+footer{
+    width: 320px;
+    height: 100px;
+    background-color: black;
+}
